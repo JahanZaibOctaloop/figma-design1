@@ -29,7 +29,7 @@ const Card = () => {
       <div className="container">
         <div className="row content">
           <div className="col-sm-6 start"><h1><span>Top</span> NFTs</h1></div>
-          <div className="col-sm-6 end mt-4 mr-4"><button className='btn btn-light'>15</button></div>
+          <div className="col-sm-6 end mt-4 mr-4"></div>
         </div>
         <div className="row">
         {nfts.map((nft, index) => (
@@ -49,7 +49,7 @@ const Card = () => {
       <div className="container">
         <div className="row content">
           <div className="col-sm-8 start"><h1>LATEST <span>COLLECTIONS</span></h1></div>
-          <div className="col-sm-4 end mt-4 mr-4"><button className='btn btn-light'>15</button></div>
+          <div className="col-sm-4 end mt-4 mr-4"></div>
         </div>
         <div className="row">
         {nfts.map((nft, index) => (
@@ -66,7 +66,7 @@ const Card = () => {
       <div className="container">
         <div className="row content">
           <div className="col-sm-8 start"><h1>RECENTLY <span>SOLID</span></h1></div>
-          <div className="col-sm-4 end mt-4 mr-4"><button className='btn btn-light'>15</button></div>
+          <div className="col-sm-4 end mt-4 mr-4"></div>
         </div>
         <div className="row image-container">
         {nfts1.map((nft, index) => (
