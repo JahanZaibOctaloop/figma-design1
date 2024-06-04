@@ -1,0 +1,52 @@
+.hero-section {
+    background: linear-gradient(90deg, #0f1218 0%, #16163a 100%);
+    padding: 100px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .collection span{
+    font-size: 3rem;
+    
+    color: aliceblue;
+  }
+
+
+  
+  .hero-section p {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+  }
+  
+  .hero-buttons .btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+  }
+  
+  .nft-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .nft-card {
+    background-color: #21262d;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px;
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .nft-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .nft-card p {
+    padding: 10px;
+    color: #c9d1d9;
+  }
+  

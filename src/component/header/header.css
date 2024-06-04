@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #0d1117;
+  }
+  
+  .nav-link {
+    color: #ffffff !important;
+  }
+  
+  .nav-link:hover {
+    color: #58a6ff !important;
+  }
+  
+  .nav-btn {
+    margin-left: 10px;
+  }
+  .b{
+    margin-left: 150px;
+  }
+  
