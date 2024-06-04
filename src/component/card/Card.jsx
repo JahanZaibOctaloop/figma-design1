@@ -27,7 +27,6 @@ const Card = () => {
         <div className="col-sm-3">
             <div className="nft-card" key={index}>
               <img src={nft.src} alt={nft.title} />
-              <p>{nft.title}</p>
             </div>
         </div>
 ))}

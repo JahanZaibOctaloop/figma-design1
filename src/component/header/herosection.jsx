@@ -19,11 +19,9 @@ const HeroSection = () => {
       <div className="nft-cards">
           <div className="nft-card">
             <img src={process.env.PUBLIC_URL + '/images/g1.png'} alt="NFT 1" />
-            <p>Raja Fresch</p>
           </div>
           <div className="nft-card">
             <img src={process.env.PUBLIC_URL + '/images/g2.png'} alt="NFT 2" />
-            <p>Curator: Dr. Stan Team</p>
           </div>
          
         </div>
