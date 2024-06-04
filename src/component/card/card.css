@@ -3,10 +3,23 @@
     padding: 50px 0;
   }
   
-  .top-nfts h2 {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
+  .content{
+    position: relative;
   }
+  .content .start h1 span{
+    font-size: 50px;
+    color: #00ffcc;
+    text-shadow: 0 0 5px #8f9c9a,
+                 0 0 20px #002fff,
+                 0 0 40px #bbb8c7,
+                                   0 0 100px #eff1f1,
+                 0 0 150px #00ffcc; 
+    }
+  .content .end{
+   
+    text-align: end;
+  }
+ 
   
   .nft-cards {
     display: flex;

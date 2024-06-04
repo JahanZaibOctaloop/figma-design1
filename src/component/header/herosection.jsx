@@ -6,8 +6,8 @@ const HeroSection = () => {
     <section className="hero-section text-center text-light">
       <div className="container">
       <div className="row">
-     <div className="col-sm-6 mt-5">
-     <h1>Discover the <br/> <span className='collection'>Collection</span> of NFTs</h1>
+     <div className="col-sm-6 mt-5 content">
+     <h1>Discover the <br/> <span>Collection</span> of NFTs</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste nemo tenetur consequatur error quae inventore tempora labore incidunt.
              Laboriosam voluptates facilis repellendus labore nam eum odit ratione adipisci quas placeat?</p>
         <div className="hero-buttons">

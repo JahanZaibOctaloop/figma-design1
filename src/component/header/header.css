@@ -1,7 +1,16 @@
 .navbar {
     background-color: #0d1117;
   }
+
+  .navbar {
+    border-bottom: 3px solid rgb(89, 100, 148);
+  }
   
+  .navbar .navbar-brand img{
+    height: 80px; 
+    margin-right: 20px;
+    width: 110px;
+  }
   .nav-link {
     color: #ffffff !important;
   }
@@ -16,4 +25,13 @@
   .b{
     margin-left: 150px;
   }
-  
+  .nft-card {
+    position: relative; 
+  }
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+    font-size: 30px;
+  }

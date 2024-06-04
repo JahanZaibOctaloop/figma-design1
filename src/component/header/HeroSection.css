@@ -49,4 +49,12 @@
     padding: 10px;
     color: #c9d1d9;
   }
-  
+  .content h1 span{
+    font-size: 50px;
+    color: #00ffcc;
+    text-shadow: 0 0 5px #8f9c9a,
+                 0 0 20px #002fff,
+                 0 0 40px #bbb8c7,
+                                   0 0 100px #eff1f1,
+                 0 0 150px #00ffcc; 
+  }
