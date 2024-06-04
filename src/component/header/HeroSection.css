@@ -10,7 +10,7 @@
 
   .collection span{
     font-size: 3rem;
-    
+
     color: aliceblue;
   }
 
@@ -37,7 +37,7 @@
     border-radius: 10px;
     overflow: hidden;
     margin: 0 10px;
-    width: 200px; /* Adjust the width as needed */
+    width: 200px;
   }
   
   .nft-card img {

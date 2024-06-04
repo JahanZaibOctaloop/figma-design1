@@ -7,6 +7,14 @@ const Card = () => {
     { src: `${process.env.PUBLIC_URL}/images/g2.png`, title: "NFT 2" },
     { src: `${process.env.PUBLIC_URL}/images/g3.png`, title: "NFT 3" },
     { src: `${process.env.PUBLIC_URL}/images/g2.png`, title: "NFT 2" },
+    { src: `${process.env.PUBLIC_URL}/images/g1.png`, title: "NFT 1" },
+    { src: `${process.env.PUBLIC_URL}/images/g2.png`, title: "NFT 2" },
+    { src: `${process.env.PUBLIC_URL}/images/g3.png`, title: "NFT 3" },
+    { src: `${process.env.PUBLIC_URL}/images/g2.png`, title: "NFT 2" },
+    { src: `${process.env.PUBLIC_URL}/images/g1.png`, title: "NFT 1" },
+    { src: `${process.env.PUBLIC_URL}/images/g2.png`, title: "NFT 2" },
+    { src: `${process.env.PUBLIC_URL}/images/g3.png`, title: "NFT 3" },
+    { src: `${process.env.PUBLIC_URL}/images/g2.png`, title: "NFT 2" },
   ];
 
   return (
