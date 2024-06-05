@@ -1,0 +1,34 @@
+.nft-detail {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-detail .image-section{
+    border-right: 1px solid blue;
+}
+.card-detail img{
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.card-detail{
+    border: 3px solid #399398;
+    background-color: rgba(90, 85, 85, 0.8); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(177, 26, 26, 0.2);
+    padding: 20px;
+}
+.form-area{
+    border: 2px solid #399398;
+}
+.form-area input{
+    background-color: #2D777B;
+    border-color: #2D777B;
+}
+
+.form-area textarea{
+    background-color: #2D777B;
+    border-color: #2D777B;
+}

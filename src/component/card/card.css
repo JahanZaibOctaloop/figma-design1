@@ -41,8 +41,36 @@
   }
   
   .nft-card p {
-    padding: 10px;
     color: #c9d1d9;
     text-align: center;
   }
+  
+  .card-nft{
+    background-color:#011325 ;
+    color: #c9d1d9;
+    margin-top: 40px;
+    border-bottom: 15px solid #00ffcc;
+    border-left:3px solid #00ffcc ;
+    border-right:3px solid #00ffcc ;
+    margin-bottom: 20px;
+    box-shadow: 5px 1px 5px 1px lightblue;
+    height: 394px;
+    width: 255px;
+
+  }
+
+  .card-nft .card-img-top{
+    padding: 8px
+    ;
+    height: 200px;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20px;
+  }
+  .card-nft p{
+    font-size: 10px;
+  }
+
   

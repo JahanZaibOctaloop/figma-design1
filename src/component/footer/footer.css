@@ -1,0 +1,19 @@
+.footer{
+    padding-top: 15px;
+    justify-content: center;
+    background-color: black;
+    border-top: 2px solid blueviolet;
+
+}
+.footer img{
+    height: 100px;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.footer p{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
