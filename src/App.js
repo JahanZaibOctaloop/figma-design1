@@ -4,6 +4,8 @@ import { Route, Routes,} from 'react-router-dom';
 
 import Main from './component/main';
 import CardDetail from './component/card/card-detail/card-detail';
+import NFT from './component/card/create-nft/nft';
+import LatestNft from './component/all-nft/latest-nft';
 
 function App() {
   return (
@@ -11,9 +13,10 @@ function App() {
    <Routes>
         <Route path="/" element={<Main/>} />
         <Route path="/nftdetail" element={<CardDetail/>} />
-
-      </Routes>
-   {/* <Main/> */}
+        <Route path="/create_nft" element={<NFT/>} />
+        <Route path="/latest_nft" element={<LatestNft/>} />
+        
+  </Routes>
    </>
   );
 }

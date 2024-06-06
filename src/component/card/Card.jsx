@@ -28,8 +28,8 @@ const Card = () => {
     <section className="top-nfts text-light">
       <div className="container">
         <div className="row content">
-          <div className="col-sm-6 start"><h1><span>Top</span> NFTs</h1></div>
-          <div className="col-sm-6 end mt-4 mr-4"></div>
+          <div className="col-sm-6 start"><h1> <span>TOP</span> NFTs</h1></div>
+          <div className="col-sm-6 end mt-4"></div>
         </div>
         <div className="row text-center">
         {nfts.map((nft, index) => (
@@ -43,11 +43,7 @@ const Card = () => {
                   <p>Created By: Trash Crew Team</p></div>
                 <div className="col-sm-4"><p>143.37</p></div>
               </div>
-              <div className="row buy-now mt-3">
-                {/* <div className="col-sm-2">
-                  <img height={50} src={`${process.env.PUBLIC_URL}/images/a3.png`} alt="" />
-                  </div> */}
-                
+              <div className="row buy-now mt-3">                
                 <img height={40} src={`${process.env.PUBLIC_URL}/images/a2.png`} alt="" />
                 
               </div>
@@ -56,13 +52,13 @@ const Card = () => {
         </div>
 ))}
         </div>
-        <div className="text-center m-5"><button className='btn btn-success text-center'>View All</button></div>
+        <div className="text-center m-5"><img  src={`${process.env.PUBLIC_URL}/images/a14.png`} alt="" /></div>
       </div>
 
       <div className="container">
         <div className="row content">
-          <div className="col-sm-6 start"><h1><span>Top</span> NFTs</h1></div>
-          <div className="col-sm-6 end mt-4 mr-4"></div>
+          <div className="col-sm-6 start"><h1>LATEST <span>COLLECTIONS</span></h1></div>
+          <div className="col-sm-6 end mt-4"></div>
         </div>
         <div className="row text-center">
         {nfts.map((nft, index) => (
@@ -78,14 +74,13 @@ const Card = () => {
               </div>
               <div className="row buy-now mt-3">
                 <img height={40} src={`${process.env.PUBLIC_URL}/images/a2.png`} alt="" />
-                
               </div>
              </div>
            </div>
         </div>
 ))}
         </div>
-        <div className="text-center m-5"><button className='btn btn-success text-center'>View All</button></div>
+        <div className="text-center m-5"><img src={`${process.env.PUBLIC_URL}/images/a14.png`} alt="" /></div>
       </div>
 
       <div className="container">

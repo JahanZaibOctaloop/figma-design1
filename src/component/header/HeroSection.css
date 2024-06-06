@@ -3,16 +3,6 @@
     padding: 100px 0;
   }
   
-  .hero-section h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-  }
-
-  .collection span{
-    font-size: 3rem;
-
-    color: aliceblue;
-  }
 
 
   
@@ -49,15 +39,28 @@
     padding: 10px;
     color: #c9d1d9;
   }
-  .content h1 span{
-    font-size: 50px;
-    color: #00ffcc;
-    text-shadow: 0 0 5px #8f9c9a,
-                 0 0 20px #002fff,
-                 0 0 40px #bbb8c7,
-                                   0 0 100px #eff1f1,
-                 0 0 150px #00ffcc; 
+  .content{
+    flex-direction: column;
+    align-items: flex-start;
   }
+  .content h1{
+  
+      font-size: 50px;
+      margin: 0;
+      line-height: 1.2;
+  
+  }
+  .content h1 span{
+    font-family: 'Arial', sans-serif;
+            font-weight: 700;
+            font-size: 50px;
+            color: transparent;
+            -webkit-text-stroke: 1px #40e0d0; 
+       
+  }
+
+
+
 
 
 

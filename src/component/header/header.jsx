@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#"><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="" /></a>
+          <a className="navbar-brand mr-3" href="#"><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="" /></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -16,34 +16,35 @@ const Header = () => {
                 <a className="nav-link active ms-5" aria-current="page" href="#">STRAKING</a>
               </li>
               
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown ms-3">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   ABOUT
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a className="dropdown-item" href="#">Action</a></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
+                <ul className="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                  <li><a className="dropdown-item ms-5" href="#">Action</a></li>
+                  <li><a className="dropdown-item ms-5" href="#">Another action</a></li>
                   <li><hr className="dropdown-divider"/></li>
                   <li><a className="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ms-3
+              ">
                 <a className="nav-link" href="#">WHITEPAPER</a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ms-2">
                 <a className="nav-link" href="#">MARKET PLACE</a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ms-3">
                 <a className="nav-link" href="#">AUDIT</a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ms-3">
                 <a className="nav-link" href="#">PRESALE</a>
               </li>
             </ul>
-            <form className="d-flex">
-            <button className="btn btn1 btn-outline-success m-4 text-light" type="submit">Win a Trash</button>
-              <button className="btn btn2  m-4 " type="submit">Collect Wallect</button>
-            </form>
+            <div className=''>
+            <button className="btn btn1 ms-3 " type="submit">Win a Trash</button>
+              <button className="btn btn2 ms-3" type="submit">Collect Wallect</button>
+            </div>
           </div>
         </div>
       </nav>
