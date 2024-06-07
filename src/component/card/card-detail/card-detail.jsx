@@ -19,11 +19,11 @@ function CardDetail() {
 
                 </div>
                 <div className="col-sm-6 form-area">
-                  <h2 className=' text-light'>RARE TRASH</h2>
+                  <h2 className=' ms-4 text-light'>RARE TRASH</h2>
 
                   <div className="container mt-2">
                     <div className="row justify-content-center listed-item">
-                      <div className="col-sm-5 mt-2 text-center content me-3">
+                      <div className="col-sm-5 mt-2 text-center content me-2">
                         <p>Physical Items listed <span className='ms-2 text-light'>200</span></p>
                       </div>
                       <div className="col-sm-5 mt-2 text-center content">
@@ -31,7 +31,7 @@ function CardDetail() {
                       </div>
                     </div>
                     <div className="row justify-content-center listed-item">
-                      <div className="col-sm-5 mt-2 text-center content me-3">
+                      <div className="col-sm-5 mt-2 text-center content me-2">
                         <p>Physical Items listed <span className='ms-2 text-light'>200</span></p>
                       </div>
                       <div className="col-sm-5 mt-2 text-center content">
@@ -39,7 +39,7 @@ function CardDetail() {
                       </div>
                     </div>
                     <div className="row justify-content-center listed-item">
-                      <div className="col-11 mt-4 text-center content">
+                      <div className="col-10 mt-4 text-center content ">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis et eveniet sequi impedit tempora. Blanditiis provident consectetur expedita in.
                           Perferendis saepe, cum laboriosam quam quasi rem provident officiis voluptates illo.</p>
                       </div>

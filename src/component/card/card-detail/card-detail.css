@@ -3,9 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.card-detail .image-section{
-    border-right: 1px solid blue;
-}
+
 .card-detail .img1{
     height: 300px;
     width: 300px;
@@ -30,10 +28,7 @@
 .form-area{
     border: 2px solid #399398;
 }
-.form-area input{
-    background-color: #2D777B;
-    border-color: #2D777B;
-}
+
 
 .form-area textarea{
     background-color: #2D777B;
@@ -46,7 +41,6 @@
 .listed-item .content{
 border: 1px solid #2D777B;
 border-radius: 7px;
-padding: 1px;
 background-color: #2D777B;
 }
 

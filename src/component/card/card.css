@@ -23,9 +23,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
   }
   
   .nft-card {
+    transform: skewY(20deg);
+
     background-color: #21262d;
     overflow: hidden;
     margin: 10px;

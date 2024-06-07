@@ -1,3 +1,20 @@
 .latest-card{
     background-color: black;
 }
+#sidebar-wrapper{
+border-radius: 10px;
+  width: 160px;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 15px;
+  color: white;
+}
+#sidebar-wrapper select{
+    padding: 15px;
+    margin-top: 7px;
+    border: none;
+    border-bottom: 1px solid rgb(39, 43, 39);
+    background-color: #111;
+    color: rgb(241, 235, 235);
+}
