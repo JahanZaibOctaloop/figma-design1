@@ -28,7 +28,24 @@
     background-color: rgb(17, 17, 15);
     border-radius: 40px;
   }
+  .btn1:hover {
+    height: 53px;
+    width: 170px;
+    border: 1px solid #F8DD74;
+    color: #F8DD74;
+    font-weight: 600;
+    background-color: rgb(17, 17, 15);
+    border-radius: 40px;
+  }
   .btn2 {
+    height: 53px;
+    width: 170px;
+    font-weight: 600;
+    color: #0d1117;
+    background-color: #F8DD74;
+    border-radius: 40px;
+  }
+  .btn2:hover{
     height: 53px;
     width: 170px;
     font-weight: 600;
