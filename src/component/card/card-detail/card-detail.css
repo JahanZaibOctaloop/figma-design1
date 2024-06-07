@@ -6,9 +6,16 @@
 .card-detail .image-section{
     border-right: 1px solid blue;
 }
-.card-detail img{
+.card-detail .img1{
     height: 300px;
     width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.card-detail .img2{
+  
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -32,3 +39,25 @@
     background-color: #2D777B;
     border-color: #2D777B;
 }
+.listed-item{
+    position: relative;
+
+}
+.listed-item .content{
+border: 1px solid #2D777B;
+border-radius: 7px;
+padding: 1px;
+background-color: #2D777B;
+}
+
+.listed-item .content span{
+    font-weight: 700;
+}
+.listed-item .content p{
+    font-weight: 400;
+    color: white;
+}
+
+
+  
+  

@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -11,7 +12,10 @@ const HeroSection = () => {
         <p className='text-start'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste nemo tenetur consequatur error quae inventore tempora labore incidunt.
           boriosam voluptates facilis repellendus labore nam eum odit ratione adipisci quas placeat?</p>
         <div className="text-start hero-buttons">
-        <img height={50} className='ps-3' src={process.env.PUBLIC_URL + '/images/a1.png'} alt="NFT 1" />
+          <Link to='/create_nft'>
+          <img height={50} className='ps-3' src={process.env.PUBLIC_URL + '/images/a1.png'} alt="NFT 1" />
+
+          </Link>
         <img  className='ps-3' src={process.env.PUBLIC_URL + '/images/a2.png'} alt="NFT 1" />
         </div>
      </div>

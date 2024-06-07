@@ -10,7 +10,7 @@ function NFT() {
   return (
     <>
     <Header/>
-    <div className="container-fluid" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/images/a8.png'})`,backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>
+    <div className="container-fluid" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/images/a5.png'})`,backgroundRepeat:'no-repeat',backgroundSize:'cover' }}>
       <div className="row justify-content-center">
         <h3 className='text-center m-5 text-light'>CREATE OWN NFTS</h3>
         <div className="col-sm-9 mb-4">

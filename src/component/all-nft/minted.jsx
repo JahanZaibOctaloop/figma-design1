@@ -3,15 +3,15 @@ import Header from '../header/header'
 import Footer from '../footer/footer'
 import './latest-nft.css'
 
-function LatestNft() {
+function MintedNft() {
   return (
     <>
     <Header/>
     <section className="hero-section text-center text-light"  style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/images/a5.png'})`,backgroundSize:'cover' }}>
       <div className="container">
       <div className="row justify-content-center" >
-     <div className="col-sm-4 content justify-content-center mt-5" >
-     <h1 className=''>Latest <br/> <span>Collection</span></h1>
+     <div className="col-sm-4 content  mt-5" >
+     <h1 className=''>MINTED <span>Collection</span></h1>
      </div>
       <div className="col-sm-5">
       <img height={330} src={process.env.PUBLIC_URL + '/images/a15.png'} alt="NFT 1" />
@@ -24,7 +24,7 @@ function LatestNft() {
     <div className="container-fluid latest-card">
     <div className="container latest-card pb-5">
     <div className=" content text-center p-5 text-light" >
-     <h1 className=''>Latest  <span>Collection</span></h1>
+     <h1 className=''>MINTED <span>NFTs</span></h1>
      </div>
     <div className="row">
         <div className="col-sm-3 col-12">
@@ -232,4 +232,4 @@ function LatestNft() {
   )
 }
 
-export default LatestNft
+export default MintedNft

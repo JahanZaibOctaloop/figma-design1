@@ -1,6 +1,6 @@
 import React from 'react';
 import './card.css';
-
+import { Link } from 'react-router-dom';
 const Card = () => {
   const nfts = [
     { src: `${process.env.PUBLIC_URL}/images/g4.jpeg`, title: "NFT 1" },
@@ -52,8 +52,9 @@ const Card = () => {
         </div>
 ))}
         </div>
-        <div className="text-center m-5"><img  src={`${process.env.PUBLIC_URL}/images/a14.png`} alt="" /></div>
-      </div>
+        <Link to='/top_nft'>
+        <div className="text-center m-5"><img src={`${process.env.PUBLIC_URL}/images/a14.png`} alt="" /></div>
+        </Link>      </div>
 
       <div className="container">
         <div className="row content">
@@ -80,7 +81,9 @@ const Card = () => {
         </div>
 ))}
         </div>
+        <Link to='/latest_nft'>
         <div className="text-center m-5"><img src={`${process.env.PUBLIC_URL}/images/a14.png`} alt="" /></div>
+        </Link>
       </div>
 
       <div className="container">

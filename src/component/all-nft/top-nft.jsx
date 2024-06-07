@@ -3,7 +3,7 @@ import Header from '../header/header'
 import Footer from '../footer/footer'
 import './latest-nft.css'
 
-function LatestNft() {
+function TopNft() {
   return (
     <>
     <Header/>
@@ -11,10 +11,10 @@ function LatestNft() {
       <div className="container">
       <div className="row justify-content-center" >
      <div className="col-sm-4 content justify-content-center mt-5" >
-     <h1 className=''>Latest <br/> <span>Collection</span></h1>
+     <h1 className='mt-5'>TOP <span>NFTs</span></h1>
      </div>
       <div className="col-sm-5">
-      <img height={330} src={process.env.PUBLIC_URL + '/images/a15.png'} alt="NFT 1" />
+      <img height={430} src={process.env.PUBLIC_URL + '/images/a13.png'} alt="NFT 1" />
 
       </div>
       </div>
@@ -24,9 +24,9 @@ function LatestNft() {
     <div className="container-fluid latest-card">
     <div className="container latest-card pb-5">
     <div className=" content text-center p-5 text-light" >
-     <h1 className=''>Latest  <span>Collection</span></h1>
+     <h1 className=''>TOP  <span>NFTs</span></h1>
      </div>
-    <div className="row">
+    <div className="row justify-content-center">
         <div className="col-sm-3 col-12">
            <div class="card card-nft mt-3 mr-4" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/images/a7.png'})`,backgroundSize:'cover' }}>
              <img  src={`${process.env.PUBLIC_URL}/images/g5.jpeg`} class="card-img-top" alt=".."/>
@@ -232,4 +232,4 @@ function LatestNft() {
   )
 }
 
-export default LatestNft
+export default TopNft
