@@ -25,94 +25,178 @@ const Card = () => {
   ];
 
   return (
-<>
-<div className="container-fluid card-section">
-<div className="container ">
-  h
-      <div className="row">
-     <div className="content">
-     <h1 className='text-start text-light'>Top<span> NFTs</span></h1>
-     </div>
+    <>
+      <div className="container-fluid card-section">
+        <div className="container ">
 
-     <div className="col-sm-3 mt-3 mb-5">
-      <div class="card" >
-      <img className='img4' src={ `${process.env.PUBLIC_URL}/images/a23.png`}  alt="..."/>
-
-      <img className='img2' src={ `${process.env.PUBLIC_URL}/images/a19.png`}  alt="..."/>
-        <img className='img1' src={ `${process.env.PUBLIC_URL}/images/g4.jpeg`}  alt="..."/>
-        <img className='img3' src={ `${process.env.PUBLIC_URL}/images/a20.png`}  alt="..."/>
-          <p>Rare Trash </p> 
-          <div className="row card-text">
-            <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
-            <div className="col-sm-3"><p>143.27</p></div>
-          </div>
-          <div className="row  justify-content-center">
-            <div className="col-sm-8 buy_now text-center ">
-            Buy
+          <div className="row">
+            <div className="content">
+              <h1 className='text-start text-light'>Top<span> NFTs</span></h1>
             </div>
-          </div>
-      </div>   
-          </div>
-          <div className="col-sm-3 mt-3 mb-5">
-      <div class="card" >
-      <img className='img4' src={ `${process.env.PUBLIC_URL}/images/a23.png`}  alt="..."/>
 
-      <img className='img2' src={ `${process.env.PUBLIC_URL}/images/a19.png`}  alt="..."/>
-        <img className='img1' src={ `${process.env.PUBLIC_URL}/images/g4.jpeg`}  alt="..."/>
-        <img className='img3' src={ `${process.env.PUBLIC_URL}/images/a20.png`}  alt="..."/>
-          <p>Rare Trash </p> 
-          <div className="row card-text">
-            <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
-            <div className="col-sm-3"><p>143.27</p></div>
-          </div>
-          <div className="row  justify-content-center">
-            <div className="col-sm-8 buy_now text-center ">
-            Buy
-            </div>
-          </div>
-      </div>   
-          </div> <div className="col-sm-3 mt-3 mb-5">
-      <div class="card" >
-      <img className='img4' src={ `${process.env.PUBLIC_URL}/images/a23.png`}  alt="..."/>
+            <div className="col-sm-3 mt-3 mb-5">
+              <div class="card" >
+                <img className='img4' src={`${process.env.PUBLIC_URL}/images/a23.png`} alt="..." />
 
-      <img className='img2' src={ `${process.env.PUBLIC_URL}/images/a19.png`}  alt="..."/>
-        <img className='img1' src={ `${process.env.PUBLIC_URL}/images/g4.jpeg`}  alt="..."/>
-        <img className='img3' src={ `${process.env.PUBLIC_URL}/images/a20.png`}  alt="..."/>
-          <p>Rare Trash </p> 
-          <div className="row card-text">
-            <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
-            <div className="col-sm-3"><p>143.27</p></div>
-          </div>
-          <div className="row  justify-content-center">
-            <div className="col-sm-8 buy_now text-center ">
-            Buy
+                <img className='img2' src={`${process.env.PUBLIC_URL}/images/a19.png`} alt="..." />
+                <img className='img1' src={`${process.env.PUBLIC_URL}/images/g4.jpeg`} alt="..." />
+                <img className='img3' src={`${process.env.PUBLIC_URL}/images/a20.png`} alt="..." />
+                <p>Rare Trash </p>
+                <div className="row card-text">
+                  <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
+                  <div className="col-sm-3"><p>143.27</p></div>
+                </div>
+                <div className="row  justify-content-center">
+                  <div className="col-sm-8 buy_now text-center ">
+                    Buy
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-      </div>   
-          </div> <div className="col-sm-3 mt-3 mb-5">
-      <div class="card" >
-      <img className='img4' src={ `${process.env.PUBLIC_URL}/images/a23.png`}  alt="..."/>
+            <div className="col-sm-3 mt-3 mb-5">
+              <div class="card" >
+                <img className='img4' src={`${process.env.PUBLIC_URL}/images/a23.png`} alt="..." />
 
-      <img className='img2' src={ `${process.env.PUBLIC_URL}/images/a19.png`}  alt="..."/>
-        <img className='img1' src={ `${process.env.PUBLIC_URL}/images/g4.jpeg`}  alt="..."/>
-        <img className='img3' src={ `${process.env.PUBLIC_URL}/images/a20.png`}  alt="..."/>
-          <p>Rare Trash </p> 
-          <div className="row card-text">
-            <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
-            <div className="col-sm-3"><p>143.27</p></div>
-          </div>
-          <div className="row  justify-content-center">
-            <div className="col-sm-8 buy_now text-center ">
-            Buy
+                <img className='img2' src={`${process.env.PUBLIC_URL}/images/a19.png`} alt="..." />
+                <img className='img1' src={`${process.env.PUBLIC_URL}/images/g4.jpeg`} alt="..." />
+                <img className='img3' src={`${process.env.PUBLIC_URL}/images/a20.png`} alt="..." />
+                <p>Rare Trash </p>
+                <div className="row card-text">
+                  <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
+                  <div className="col-sm-3"><p>143.27</p></div>
+                </div>
+                <div className="row  justify-content-center">
+                  <div className="col-sm-8 buy_now text-center ">
+                    Buy
+                  </div>
+                </div>
+              </div>
+            </div> <div className="col-sm-3 mt-3 mb-5">
+              <div class="card" >
+                <img className='img4' src={`${process.env.PUBLIC_URL}/images/a23.png`} alt="..." />
+
+                <img className='img2' src={`${process.env.PUBLIC_URL}/images/a19.png`} alt="..." />
+                <img className='img1' src={`${process.env.PUBLIC_URL}/images/g4.jpeg`} alt="..." />
+                <img className='img3' src={`${process.env.PUBLIC_URL}/images/a20.png`} alt="..." />
+                <p>Rare Trash </p>
+                <div className="row card-text">
+                  <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
+                  <div className="col-sm-3"><p>143.27</p></div>
+                </div>
+                <div className="row  justify-content-center">
+                  <div className="col-sm-8 buy_now text-center ">
+                    Buy
+                  </div>
+                </div>
+              </div>
+            </div> <div className="col-sm-3 mt-3 mb-5">
+              <div class="card" >
+                <img className='img4' src={`${process.env.PUBLIC_URL}/images/a23.png`} alt="..." />
+
+                <img className='img2' src={`${process.env.PUBLIC_URL}/images/a19.png`} alt="..." />
+                <img className='img1' src={`${process.env.PUBLIC_URL}/images/g4.jpeg`} alt="..." />
+                <img className='img3' src={`${process.env.PUBLIC_URL}/images/a20.png`} alt="..." />
+                <p>Rare Trash </p>
+                <div className="row card-text">
+                  <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
+                  <div className="col-sm-3"><p>143.27</p></div>
+                </div>
+                <div className="row  justify-content-center">
+                  <div className="col-sm-8 buy_now text-center ">
+                    Buy
+                  </div>
+                </div>
+              </div>
             </div>
+            <div className='text-center m-4 text-light view_button'>View All</div>
           </div>
-      </div>   
+
+        </div>
+        <div className="container ">
+
+          <div className="row">
+            <div className="content">
+              <h1 className='text-start text-light'>LATEST<span> COLLECTIONS</span></h1>
+            </div>
+
+            <div className="col-sm-3 mt-3 mb-5">
+              <div class="card" >
+                <img className='img4' src={`${process.env.PUBLIC_URL}/images/a23.png`} alt="..." />
+
+                <img className='img2' src={`${process.env.PUBLIC_URL}/images/a19.png`} alt="..." />
+                <img className='img1' src={`${process.env.PUBLIC_URL}/images/g4.jpeg`} alt="..." />
+                <img className='img3' src={`${process.env.PUBLIC_URL}/images/a20.png`} alt="..." />
+                <p>Rare Trash </p>
+                <div className="row card-text">
+                  <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
+                  <div className="col-sm-3"><p>143.27</p></div>
+                </div>
+                <div className="row  justify-content-center">
+                  <div className="col-sm-8 buy_now text-center ">
+                    Buy
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-3 mt-3 mb-5">
+              <div class="card" >
+                <img className='img4' src={`${process.env.PUBLIC_URL}/images/a23.png`} alt="..." />
+
+                <img className='img2' src={`${process.env.PUBLIC_URL}/images/a19.png`} alt="..." />
+                <img className='img1' src={`${process.env.PUBLIC_URL}/images/g4.jpeg`} alt="..." />
+                <img className='img3' src={`${process.env.PUBLIC_URL}/images/a20.png`} alt="..." />
+                <p>Rare Trash </p>
+                <div className="row card-text">
+                  <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
+                  <div className="col-sm-3"><p>143.27</p></div>
+                </div>
+                <div className="row  justify-content-center">
+                  <div className="col-sm-8 buy_now text-center ">
+                    Buy
+                  </div>
+                </div>
+              </div>
+            </div> <div className="col-sm-3 mt-3 mb-5">
+              <div class="card" >
+                <img className='img4' src={`${process.env.PUBLIC_URL}/images/a23.png`} alt="..." />
+
+                <img className='img2' src={`${process.env.PUBLIC_URL}/images/a19.png`} alt="..." />
+                <img className='img1' src={`${process.env.PUBLIC_URL}/images/g4.jpeg`} alt="..." />
+                <img className='img3' src={`${process.env.PUBLIC_URL}/images/a20.png`} alt="..." />
+                <p>Rare Trash </p>
+                <div className="row card-text">
+                  <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
+                  <div className="col-sm-3"><p>143.27</p></div>
+                </div>
+                <div className="row  justify-content-center">
+                  <div className="col-sm-8 buy_now text-center ">
+                    Buy
+                  </div>
+                </div>
+              </div>
+            </div> <div className="col-sm-3 mt-3 mb-5">
+              <div class="card" >
+                <img className='img4' src={`${process.env.PUBLIC_URL}/images/a23.png`} alt="..." />
+
+                <img className='img2' src={`${process.env.PUBLIC_URL}/images/a19.png`} alt="..." />
+                <img className='img1' src={`${process.env.PUBLIC_URL}/images/g4.jpeg`} alt="..." />
+                <img className='img3' src={`${process.env.PUBLIC_URL}/images/a20.png`} alt="..." />
+                <p>Rare Trash </p>
+                <div className="row card-text">
+                  <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
+                  <div className="col-sm-3"><p>143.27</p></div>
+                </div>
+                <div className="row  justify-content-center">
+                  <div className="col-sm-8 buy_now text-center ">
+                    Buy
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='text-center m-4 text-light view_button'>View All</div>
           </div>
-          <div className='text-center m-4 text-light view_button'>View All</div>
+        </div>
       </div>
-
-    </div>
-</div>
     </>
   );
 };
