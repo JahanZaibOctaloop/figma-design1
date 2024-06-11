@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Header from '../../header/header'
 import Footer from '../../footer/footer'
@@ -81,7 +82,7 @@ function NFT() {
                   <option value="">SOLANA1</option>
                 </select>
               </div>
-              <div><button className='btn btn-danger mt-2' type="Submit">Create</button></div>
+              <div><button className='btn mt-2' type="Submit">Create</button></div>
               </div>
             </div>
           </div>

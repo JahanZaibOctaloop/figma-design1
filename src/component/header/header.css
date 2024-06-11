@@ -3,13 +3,13 @@
   }
 
   .navbar {
-    border-bottom: 3px solid rgb(89, 100, 148);
+    border-bottom: 11px solid #29838B;
   }
   
   .navbar .navbar-brand img{
-    height: 80px; 
-    margin-right: 20px;
-    width: 110px;
+    width: 66px;
+    height: 66px;
+    flex-shrink: 0;
   }
   .nav-link {
     color: #ffffff !important;
@@ -18,26 +18,60 @@
   .nav-link:hover {
     color: #58a6ff !important;
   }
+  .button-area{
+    position: relative;
+    right: 40px;
+  }
   
   .btn1 {
-    height: 53px;
-    width: 170px;
-    border: 1px solid #F8DD74;
-    color: #F8DD74;
-    font-weight: 600;
-    background-color: rgb(17, 17, 15);
-    border-radius: 40px;
+    margin-left: 30px;
+    width: 169.167px;
+    height: 53.333px;
+    padding: 8.333px;
+    justify-content: center;
+    align-items: center;
+    color:#FFDE5C ;
+    flex-shrink: 0;
+    border-radius: 416.667px;
+    border: 1.667px solid #FFDE5C;
+    color: #E4B63D;
+    font-family: Poppins;
+    font-size: 18.333px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
   .btn1:hover {
-    height: 53px;
-    width: 170px;
-    border: 1px solid #F8DD74;
-    color: #F8DD74;
-    font-weight: 600;
-    background-color: rgb(17, 17, 15);
-    border-radius: 40px;
+    width: 169.167px;
+    height: 53.333px;
+    padding: 8.333px;
+    justify-content: center;
+    align-items: center;
+    color:#FFDE5C ;
+    flex-shrink: 0;
+    border-radius: 416.667px;
+    border: 1.667px solid #FFDE5C;
   }
   .btn2 {
+    width: 168px;
+    height: 54px;
+    padding: 6.572px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.572px;
+    flex-shrink: 0;
+    border-radius: 65.72px;
+    border: 0.657px solid #000;
+    background: linear-gradient(90deg, #FFDE5C 0%, #E6DCB4 66.89%);
+    box-shadow: 0px 2.629px 2.629px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #343434;
+    font-family: Poppins;
+    font-size: 18.333px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  /* .btn2:hover{
     height: 53px;
     width: 170px;
     font-weight: 600;
@@ -45,15 +79,7 @@
     background-color: #F8DD74;
     border-radius: 40px;
   }
-  .btn2:hover{
-    height: 53px;
-    width: 170px;
-    font-weight: 600;
-    color: #0d1117;
-    background-color: #F8DD74;
-    border-radius: 40px;
-  }
-  
+   */
   .nft-card {
     position: relative; 
   }

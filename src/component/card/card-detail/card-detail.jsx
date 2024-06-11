@@ -39,7 +39,7 @@ function CardDetail() {
                       </div>
                     </div>
                     <div className="row justify-content-center listed-item">
-                      <div className="col-10 mt-4 text-center content ">
+                      <div className="col-10 mt-4 text-center content">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis et eveniet sequi impedit tempora. Blanditiis provident consectetur expedita in.
                           Perferendis saepe, cum laboriosam quam quasi rem provident officiis voluptates illo.</p>
                       </div>

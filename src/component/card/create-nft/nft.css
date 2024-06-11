@@ -36,6 +36,14 @@
   .create-nft button{
     background-color: #3D9FA4;
     border-color: #3D9FA4 ;
+    color: white;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .create-nft button:hover{
+    background-color: #3D9FA4;
+    border-color: #3D9FA4 ;
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;

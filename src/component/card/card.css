@@ -1,71 +1,101 @@
-.top-nfts {
-    background: #161b22;
-    padding: 50px 0;
-  }
-  
-  .content{
-    position: relative;
-  }
-  .content .start h1 span{
-    font-family: 'Arial', sans-serif;
-            font-weight: 700;
-            font-size: 50px;
-            color: transparent;
-            -webkit-text-stroke: 1px #40e0d0; 
-    }
-  .content .end{
-   
-    text-align: end;
-  }
+.card-section{
+  background: #1d2020;
+}
+.card {
+  position: relative;
+  padding: 15px;
+  color: #ffff;
+  background-image: linear-gradient(rgb(2, 5, 41), rgb(27, 29, 43));
+  box-shadow: 03px 014px 5px 5px #6AD4DA;
+}
+
+
+.card .img1{
+  margin-top: 30px;
+  width:100%;
+  padding: 0px;
+  z-index: 3;
+  border-radius: 10px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+}
+
+.card .img3{
+  position: relative;
+  width: 110px;
+  bottom: 47px;
+  height: 80px;
+  right: 18px;
+  z-index: 2;
+} 
+.card .img2{
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  right: -05px;
+  width: 100px;
+  height: 80px;
+} 
+.card .img4{
+  position: absolute;
+  z-index: 10;
+  top: 2px;
+  left: 82px;  width: 100px;
+  height: 70px;
+} 
+.card-text p{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 9.763px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.391px;
+  text-transform: capitalize;
+}
+.card-text span{
+  color: #FFF;
+font-family: Poppins;
+font-size: 9.763px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.391px;
+text-transform: capitalize;
+}
+.buy_now{
+  background-image: url('../../../public/images/a17.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+  background-size: contain;
+  height: 100%;
+  width: 100%;  
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13.018px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.521px;
+  text-transform: capitalize;
  
-  
-  .nft-cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+}
+.view_button{
+  background-image: url('../../../public/images/a17.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  padding: 15px;
+  height: 100%;  
+  color: #FFF;
+  font-size: 13.018px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 
-  }
-  
-  .nft-card {
-    transform: skewY(20deg);
-
-    background-color: #21262d;
-    overflow: hidden;
-    margin: 10px;
-    width: 200px;
-  }
-  
-  .nft-card img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .nft-card p {
-    color: #c9d1d9;
-    text-align: center;
-  }
-  
-  .card-nft{
-    padding: 10px;
-    background-color:#011325 ;
-    color: #c9d1d9;
-    margin-top: 40px;
-    margin-bottom: 20px;
-
-    box-shadow: #00ffcc 0px 14px 8px, #00ffcc 0px 10px 10px;  
-    height: 394px;
-    width: 100%;
-
-  }
-
-  .card-nft .card-img-top{
-    padding: 8px ;
-    height: 200px;
-    width: 100%;
-    border-radius: 20px;
-  }
-  .card-nft p{
-    font-size: 10px;
-  }
-
-  
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import './card.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 const Card = () => {
   const nfts = [
     { src: `${process.env.PUBLIC_URL}/images/g4.jpeg`, title: "NFT 1" },
@@ -25,85 +25,95 @@ const Card = () => {
   ];
 
   return (
-    <section className="top-nfts text-light">
-      <div className="container">
-        <div className="row content">
-          <div className="col-sm-6 start"><h1> <span>TOP</span> NFTs</h1></div>
-          <div className="col-sm-6 end mt-4"></div>
-        </div>
-        <div className="row text-center">
-        {nfts.map((nft, index) => (
-        <div className="col-sm-3 col-12">
-           <div class="card card-nft mt-3 mr-4" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/images/a7.png'})`,backgroundSize:'cover' }}>
-             <img  src={nft.src} class="card-img-top" alt=".."/>
-             <div class="card-body">
-              <div className="row mt-3">
-                <h6 className='start text-start'>Trash Crew</h6>
-                <div className="col-sm-8">
-                  <p>Created By: Trash Crew Team</p></div>
-                <div className="col-sm-4"><p>143.37</p></div>
-              </div>
-              <div className="row buy-now mt-3">                
-                <img height={40} src={`${process.env.PUBLIC_URL}/images/a2.png`} alt="" />
-                
-              </div>
-             </div>
-           </div>
-        </div>
-))}
-        </div>
-        <Link to='/top_nft'>
-        <div className="text-center m-5"><img src={`${process.env.PUBLIC_URL}/images/a14.png`} alt="" /></div>
-        </Link>      </div>
+<>
+<div className="container-fluid card-section">
+<div className="container ">
+  h
+      <div className="row">
+     <div className="content">
+     <h1 className='text-start text-light'>Top<span> NFTs</span></h1>
+     </div>
 
-      <div className="container">
-        <div className="row content">
-          <div className="col-sm-6 start"><h1>LATEST <span>COLLECTIONS</span></h1></div>
-          <div className="col-sm-6 end mt-4"></div>
-        </div>
-        <div className="row text-center">
-        {nfts.map((nft, index) => (
-        <div className="col-sm-3 col-12">
-           <div class="card card-nft mt-3 mr-4" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/images/a7.png'})`,backgroundSize:'cover' }}>
-             <img  src={nft.src} class="card-img-top" alt=".."/>
-             <div class="card-body">
-              <div className="row mt-3">
-                <h6 className='start text-start'>Trash Crew</h6>
-                <div className="col-sm-8">
-                  <p>Created By: Trash Crew Team</p></div>
-                <div className="col-sm-4"><p>143.37</p></div>
-              </div>
-              <div className="row buy-now mt-3">
-                <img height={40} src={`${process.env.PUBLIC_URL}/images/a2.png`} alt="" />
-              </div>
-             </div>
-           </div>
-        </div>
-))}
-        </div>
-        <Link to='/latest_nft'>
-        <div className="text-center m-5"><img src={`${process.env.PUBLIC_URL}/images/a14.png`} alt="" /></div>
-        </Link>
-      </div>
+     <div className="col-sm-3 mt-3 mb-5">
+      <div class="card" >
+      <img className='img4' src={ `${process.env.PUBLIC_URL}/images/a23.png`}  alt="..."/>
 
-      <div className="container">
-        <div className="row content">
-          <div className="col-sm-8 start"><h1>RECENTLY <span>SOLID</span></h1></div>
-          <div className="col-sm-4 end mt-4 mr-4"></div>
-        </div>
-        <div className="row image-container">
-        {nfts1.map((nft, index) => (
-        <div className="col-sm-3">
-            <div className="nft-card" key={index}>
-              <img src={nft.src} alt={nft.title} />
+      <img className='img2' src={ `${process.env.PUBLIC_URL}/images/a19.png`}  alt="..."/>
+        <img className='img1' src={ `${process.env.PUBLIC_URL}/images/g4.jpeg`}  alt="..."/>
+        <img className='img3' src={ `${process.env.PUBLIC_URL}/images/a20.png`}  alt="..."/>
+          <p>Rare Trash </p> 
+          <div className="row card-text">
+            <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
+            <div className="col-sm-3"><p>143.27</p></div>
+          </div>
+          <div className="row  justify-content-center">
+            <div className="col-sm-8 buy_now text-center ">
+            Buy
             </div>
-            <div className='text'>Soild Thing</div>
-        </div>
-))}
-        </div>
+          </div>
+      </div>   
+          </div>
+          <div className="col-sm-3 mt-3 mb-5">
+      <div class="card" >
+      <img className='img4' src={ `${process.env.PUBLIC_URL}/images/a23.png`}  alt="..."/>
+
+      <img className='img2' src={ `${process.env.PUBLIC_URL}/images/a19.png`}  alt="..."/>
+        <img className='img1' src={ `${process.env.PUBLIC_URL}/images/g4.jpeg`}  alt="..."/>
+        <img className='img3' src={ `${process.env.PUBLIC_URL}/images/a20.png`}  alt="..."/>
+          <p>Rare Trash </p> 
+          <div className="row card-text">
+            <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
+            <div className="col-sm-3"><p>143.27</p></div>
+          </div>
+          <div className="row  justify-content-center">
+            <div className="col-sm-8 buy_now text-center ">
+            Buy
+            </div>
+          </div>
+      </div>   
+          </div> <div className="col-sm-3 mt-3 mb-5">
+      <div class="card" >
+      <img className='img4' src={ `${process.env.PUBLIC_URL}/images/a23.png`}  alt="..."/>
+
+      <img className='img2' src={ `${process.env.PUBLIC_URL}/images/a19.png`}  alt="..."/>
+        <img className='img1' src={ `${process.env.PUBLIC_URL}/images/g4.jpeg`}  alt="..."/>
+        <img className='img3' src={ `${process.env.PUBLIC_URL}/images/a20.png`}  alt="..."/>
+          <p>Rare Trash </p> 
+          <div className="row card-text">
+            <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
+            <div className="col-sm-3"><p>143.27</p></div>
+          </div>
+          <div className="row  justify-content-center">
+            <div className="col-sm-8 buy_now text-center ">
+            Buy
+            </div>
+          </div>
+      </div>   
+          </div> <div className="col-sm-3 mt-3 mb-5">
+      <div class="card" >
+      <img className='img4' src={ `${process.env.PUBLIC_URL}/images/a23.png`}  alt="..."/>
+
+      <img className='img2' src={ `${process.env.PUBLIC_URL}/images/a19.png`}  alt="..."/>
+        <img className='img1' src={ `${process.env.PUBLIC_URL}/images/g4.jpeg`}  alt="..."/>
+        <img className='img3' src={ `${process.env.PUBLIC_URL}/images/a20.png`}  alt="..."/>
+          <p>Rare Trash </p> 
+          <div className="row card-text">
+            <div className="col-sm-9"><p><span>Created By </span>: Trash Crew Team</p></div>
+            <div className="col-sm-3"><p>143.27</p></div>
+          </div>
+          <div className="row  justify-content-center">
+            <div className="col-sm-8 buy_now text-center ">
+            Buy
+            </div>
+          </div>
+      </div>   
+          </div>
+          <div className='text-center m-4 text-light view_button'>View All</div>
       </div>
-      
-    </section>
+
+    </div>
+</div>
+    </>
   );
 };
 

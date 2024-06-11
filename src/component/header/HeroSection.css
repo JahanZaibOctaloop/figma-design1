@@ -1,74 +1,120 @@
 .hero-section {
-    background-color: linear-gradient(90deg, #0f1218 0%, #16163a 100%);
-    padding: 100px 0;
-  }
-  
-
-
-  
-  .hero-section p {
-    font-size: 1.25rem;
-    margin-bottom: 40px;
-  }
-  
-  .hero-buttons .btn {
-    margin: 0 10px;
-    padding: 10px 20px;
-  }
-  
-  .nft-cards {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-  }
-  
-  .nft-card {
-    background-color: #21262d;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 0 10px;
-    width: 200px;
-  }
-  
-  .nft-card img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .nft-card p {
-    padding: 10px;
-    color: #c9d1d9;
-  }
-  .content{
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .content h1{
-  
-      font-size: 50px;
-      margin: 0;
-      line-height: 1.2;
-  
-  }
-  .content h1 span{
-    font-family: 'Arial', sans-serif;
-            font-weight: 700;
-            font-size: 50px;
-            color: transparent;
-            -webkit-text-stroke: 1px #40e0d0; 
-       
-  }
+  background-color: linear-gradient(90deg, #0f1218 0%, #16163a 100%);
+  padding: 100px 0;
+}
 
 
 
 
+.hero-section p {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+}
 
 
+.hero-button .b1 {
+
+  background-image: url('../../../public/images/a17.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 258.131px;
+  height: 65px;
+  flex-shrink: 0;
+  padding-top: 15px;
+  padding-right: 65px;
+  text-align: center;
+  color: #FFF;
+
+font-family: Poppins;
+font-size: 21.601px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.864px;
+text-transform: capitalize;
+}
+
+.b2 {
+
+  background-image: url('../../../public/images/a18.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 258.131px;
+  height: 65px;
+  flex-shrink: 0;
+  padding-top: 15px;
+  padding-right: 65px;
+  text-align: center;
+  margin-left: 20px;
+  color: var(--primary, #3D9FA4);
+  font-family: Poppins;
+  font-size: 21.601px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.864px;
+  text-transform: capitalize;
+}
+
+.hero-buttons div {
+  text-align: center;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 21.601px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.864px;
+  text-transform: capitalize;
+}
 
 
+.nft-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
 
+.nft-card {
+  background-color: #21262d;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 10px;
+  width: 200px;
+}
 
+.nft-card img {
+  width: 100%;
+  height: auto;
+}
 
+.nft-card p {
+  padding: 10px;
+  color: #c9d1d9;
+}
 
+.content h1 {
+  font-size: 70.048px;
+  margin: 0;
+  font-weight: 700;
+  line-height: normal;
 
-  
+}
+
+.scrool {
+  background-image: url('../../../public/images/a27.png');
+  background-repeat: no-repeat;
+  padding: 32px;
+  background-position: center;
+
+}
+
+.content h1 span {
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1px #40e0d0;
+
+}
